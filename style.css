@@ -1,19 +1,65 @@
 /* Main Section */
-.background-image {
+.top {
     background-image: url(./images/Background1.png);
 }
 
-/* Buttions */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px 0px 5px 17px;
+}
+
+.main-logo {
+    font-family: 'Nautilus Pompilius', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* Searchbox ko input */
+.search-box {
+    float: right;
+    border: none;
+    margin-right: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+
+}
+
+.search-box>span {
+    padding-right: 7px;
+}
+
+.search-box>input {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 0px 5px 10px;
+    width: 176px;
+    background: none;
+}
+
+
+/* Buttons */
 button {
     border: 1px solid transparent;
-    padding: 2px 4px;
-    border-radius: 10px;
+    /* padding: 15px 27px; */
+      /* For Big screens */
+  /* For small screen */
+  padding: -1px 27px;
+    border-radius: 25px;
+}
+.sec-button{
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #000;
 }
 
 /* Section Titles */
 .section-title {
     font-size: 21px;
-    font-weight:300;
+    font-weight: 300;
     text-align: center;
     padding: 37px 0 13px 0;
 }
@@ -23,11 +69,13 @@ button {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
-    
+
 }
 
 .main-button {
     background-color: #54d154;
+    color: #fff;
+    border: none;
 }
 
 .disabled {
@@ -41,8 +89,12 @@ button {
 
 /* Main Title */
 .main-heading {
-    font-size: 55px;
+    /* font-size: 3.5em; */
+    /* For Big  screen size */
+    /* For small */
+    font-size: 3em;
     font-weight: 700;
+    margin-bottom: 0.5em;
 }
 
 /* What We Do Section */
@@ -52,9 +104,6 @@ button {
     color: #828181;
 }
 
-.item{
-    text-align: center;
-}
 .icon>img {
     background-color: #e1f3e1;
     padding: 34px 28px;
@@ -73,9 +122,13 @@ button {
     color: #828181;
 }
 
-.work-image{
+.work-image {
     float: left;
     padding: 10px;
+}
+.work-image{
+    display: table;
+    margin: 0 auto;
 }
 
 /* Testimonials Section */
@@ -90,16 +143,35 @@ button {
     color: #828181;
 }
 
+.see-button{
+    display: table;
+    margin: 0 auto;
+    background: #dddcdc;
+}
+
 /* Meet The Team Section */
 .meet-the-team {
     background-color: #54d154;
     color: #207b20;
 }
 
+.button-me{
+    display: table;
+    margin: 0 auto;
+}
+
 /* Main Footer */
 .main-footer {
     background-color: #333;
     color: #ddd;
+}
+
+/* Column Tiltle */
+.column-title {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: 31px 0 33px 0;
 }
 
 /* As Seen on Section on footer */
