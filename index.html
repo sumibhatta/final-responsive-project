@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./layout.css">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                     <input type="text" placeholder="Search...">
                     <span><img src="./images/mag.png" alt="search-icon"></span>
                 </div>
-                
+
             </nav>
         </div>
     </header>
@@ -38,12 +39,16 @@
     <!-- Section Starts -->
     <section class="main-content">
         <!-- Main Caurosel Like.. -->
-        <section class="main">
-            <h1 class="main-heading">Art is Eternal Happiness</h1>
-            <button class="main enabled">WORK WITH US</button>
-            <button class="main disabled">scroll down<span><img src="./images/arrow.png"
-                        alt="scroll-down-button"></span></button>
-        </section>
+        <div class="main">
+            <section class="background-image">
+                <div class="container">
+                    <h1 class="main-heading">Art is Eternal Happiness</h1>
+                    <button class="main-button">WORK WITH US</button>
+                    <button class="sec-button">scroll down<span><img src="./images/arrow.png"
+                                alt="scroll-down-button"></span></button>
+            </section>
+        </div>
+        </div>
         <!-- What We Do? -->
         <section class="what-we-do">
             <h3 class="section-title">WHAT WE DO</h3>
@@ -51,37 +56,41 @@
             <div class="our-works">
                 <div class="row">
                     <div class="work-items">
-                        <i class="icon icon-photography"></i>
-                        <h4 class="works-title">Loream Ipsum</h4>
-                        <p class="works-text">
-                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean
-                            sollicitudin, lorem quis bibendum auctor,
-                        </p>
-                        <button class="learn-more-button enabled">Learn more</button>
-
+                        <div class="item">
+                            <i class="icon icon-photography"><img src="./images/camera.png" alt="" srcset=""></i>
+                            <h4 class="works-title">Loream Ipsum</h4>
+                            <p class="works-text">
+                                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean
+                                sollicitudin, lorem quis bibendum auctor,
+                            </p>
+                            <button class="learn-more-button main-button">Learn more</button>
+                        </div>
                     </div>
                     <div class="work-items">
-                        <i class="icon icon-photography"></i>
-                        <h4 class="works-title">Loream Ipsum</h4>
-                        <p class="works-text">
-                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean
-                            sollicitudin, lorem quis bibendum auctor,
-                        </p>
-                        <button class="learn-more-button enabled">Learn more</button>
+                        <div class="item">
+                            <i class="icon icon-photography"><img src="./images/boost.png" alt=""></i>
+                            <h4 class="works-title">Loream Ipsum</h4>
+                            <p class="works-text">
+                                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean
+                                sollicitudin, lorem quis bibendum auctor,
+                            </p>
+                            <button class="learn-more-button main-button">Learn more</button>
 
+                        </div>
                     </div>
                     <div class="work-items">
-                        <i class="icon icon-photography"></i>
-                        <h4 class="works-title">Loream Ipsum</h4>
-                        <p class="works-text">
-                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean
-                            sollicitudin, lorem quis bibendum auctor,
-                        </p>
-                        <button class="learn-more-button enabled">Learn more</button>
-
+                        <div class="item">
+                            <i class="icon icon-photography"><img src="./images/Bank.png" alt=""></i>
+                            <h4 class="works-title">Loream Ipsum</h4>
+                            <p class="works-text">
+                                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean
+                                sollicitudin, lorem quis bibendum auctor,
+                            </p>
+                            <button class="learn-more-button main-button">Learn more</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,7 +104,7 @@
                 <button class="toggle-button">Design</button>
                 <button class="toggle-button">Print</button>
             </div>
-            <div class="latest-work-images">
+            <div class="latest-work-images clearfix">
                 <div class="container">
                     <div class="row">
                         <div class="work-image"><img src="./images/scenry.png" alt="scenery image"></div>
@@ -106,38 +115,62 @@
                         <div class="work-image"><img src="./images/glass.png" alt="keyboard cup image"></div>
                         <div class="work-image"><img src="./images/coffee.png" alt="cake and coffee image"></div>
                         <div class="work-image"><img src="./images/nail.png" alt="nail on wood image"></div>
-                        <div class="work-image"><img src="./images/eww.png" alt="ladybug image"></div>
+                        <div class="work-image"><img src="./images/insect.png" alt="ladybug image"></div>
                         <div class="work-image"><img src="./images/noidea.png" alt="grass maybe image"></div>
                     </div>
                 </div>
             </div>
-            <button class="section-button enabled">View more work <span><img src="./images/arrow2.png"
+            <button class="section-button main-button">View more work <span><img src="./images/arrow2.png"
                         alt="arrow icon"></span></button>
         </section>
         <!-- Testimonials -->
-        <section class="testimonials">
-            <h3 class="section-title">OUR LATEST WORK</h3>
-            <p class="section-subheading">Proin gravida nibh vel velit auctor aliquet.</p>
-            <div class="caurosel">
-                <div class="container">
-                    <div class="row">
-                        <p class="text">“Awalnya saya tidak menderita penyakit apapun,
+        <section class="testimonials clearfix">
+            <div class="container">
+                <h3 class="section-title">TESTIMONIALS</h3>
+                <p class="section-subheading">Proin gravida nibh vel velit auctor aliquet.</p>
+                <div class="carousel-wrapper">
+                    <span id="target-item-1"></span>
+                    <span id="target-item-2"></span>
+                    <span id="target-item-3"></span>
+
+                    <div class="carousel-item item-1">
+                        <p>“Awalnya saya tidak menderita penyakit apapun,
                             namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
-                            tidak menderita penyakit apapun!”
-                        </p>
+                            tidak menderita penyakit apapun!”</p>
                         <img src="./images/head.png" alt="Boss Head">
-                        <span class="name-of-boss">Mr. Herp</span class="position"><span>CEO of Meme, Inc.</span>
+                        <span class="name-of-boss">Mr. Herp</span> <span class="position">CEO of Meme, Inc.</span>
+
+                        <a class="arrow arrow-prev" href="#target-item-3"></a>
+                        <a class="arrow arrow-next" href="#target-item-2"></a>
+                    </div>
+
+                    <div class="carousel-item item-2">
+                        <p>“Awalnya saya tidak menderita penyakit apapun,
+                            namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
+                            tidak menderita penyakit apapun!”</p>
+                        <img src="./images/head.png" alt="Boss Head">
+                        <span class="name-of-boss">Mr. Lurk</span> <span class="position">CEO of Meme, Inc.</span>
+                        <a class="arrow arrow-prev" href="#target-item-1"></a>
+                        <a class="arrow arrow-next" href="#target-item-3"></a>
+                    </div>
+                    <div class="carousel-item item-3">
+                        <p>“Awalnya saya tidak menderita penyakit apapun,
+                            namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
+                            tidak menderita penyakit apapun!”</p>
+                        <img src="./images/head.png" alt="Boss Head">
+                        <span class="name-of-boss">Mr. Sherk</span> <span class="position">CEO of Meme, Inc.</span>
+
+                        <a class="arrow arrow-prev" href="#target-item-2"></a>
+                        <a class="arrow arrow-next" href="#target-item-1"></a>
                     </div>
                 </div>
             </div>
-
-
         </section>
         <!-- Our Happy Clients -->
         <section class="our-happy-clients">
             <h3 class="section-title">OUR HAPPY CLIENT</h3>
             <p class="section-subheading">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
-            <div class="happy-client-list">
+            <div class="happy-client-list clearfix">
                 <div class="container">
                     <div class="row">
                         <div class="happy-client"><img src="./images/google.png" alt="google"></div>
@@ -151,7 +184,7 @@
                     </div>
                 </div>
             </div>
-            <button class="section-button disabled">See all client <span><img src="./images/arrow2.png"
+            <button class="section-button">See all client <span><img src="./images/arrow2.png"
                         alt="arrow icon"></span></button>
 
         </section>
@@ -226,7 +259,7 @@
                 </div>
             </div>
             <div class="button">
-                <button class="section-button enabled">WORK WITH US<span><img src="./images/arrow2.png"
+                <button class="section-button main-button">WORK WITH US<span><img src="./images/arrow2.png"
                             alt="arrow icon"></span></button>
             </div>
         </section>
@@ -318,7 +351,7 @@
                                 <input type="text" placeholder="Your Name..">
                                 <input type="email" placeholder="Your Email..">
                                 <input type="text" placeholder="Your Message..">
-                                <button class="enabled">Send</button>
+                                <button class="send-button">Send</button>
 
                             </form>
 

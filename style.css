@@ -1,35 +1,115 @@
-.main{
+/* Main Section */
+.background-image {
     background-image: url(./images/Background1.png);
 }
 
-.what-we-do{
-    background-color: #fff;
+/* Buttions */
+button {
+    border: 1px solid transparent;
+    padding: 2px 4px;
+    border-radius: 10px;
 }
 
-.our-latest-work{
+/* Section Titles */
+.section-title {
+    font-size: 21px;
+    font-weight:300;
+    text-align: center;
+    padding: 37px 0 13px 0;
+}
+
+/* Section Subheadings */
+.section-subheading {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+.main-button {
     background-color: #54d154;
 }
 
-.testimonials{
-    background-color: #fff;
+.disabled {
+    background-color: #dddcdc;
 }
 
-.our-happy-clients{
+/* Main Section */
+.main {
+    color: #fff;
+}
+
+/* Main Title */
+.main-heading {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+/* What We Do Section */
+
+.what-we-do {
+    background-color: #fff;
+    color: #828181;
+}
+
+.item{
+    text-align: center;
+}
+.icon>img {
+    background-color: #e1f3e1;
+    padding: 34px 28px;
+    border-radius: 25px;
+}
+
+.learn-more-button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Our Latest Work Section */
+.our-latest-work {
+    background-color: #54d154;
+    color: #828181;
+}
+
+.work-image{
+    float: left;
+    padding: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #fff;
+    color: #828181;
+}
+
+/* Our Happy Clients Section */
+.our-happy-clients {
     background-color: #f2f1f1;
+    color: #828181;
 }
 
-.meet-the-team{
+/* Meet The Team Section */
+.meet-the-team {
     background-color: #54d154;
+    color: #207b20;
 }
 
-.main-footer{
+/* Main Footer */
+.main-footer {
     background-color: #333;
+    color: #ddd;
 }
 
-.as-seen-on{
+/* As Seen on Section on footer */
+.as-seen-on {
     background-color: #222;
 }
 
-.copyright{
+/* CopyRight Section on Footer */
+
+.copyright {
     background-color: #111;
+    color: #fff;
 }
