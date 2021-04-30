@@ -44,12 +44,13 @@ nav {
 button {
     border: 1px solid transparent;
     /* padding: 15px 27px; */
-      /* For Big screens */
-  /* For small screen */
-  padding: -1px 27px;
+    /* For Big screens */
+    /* For small screen */
+    padding: -1px 27px;
     border-radius: 25px;
 }
-.sec-button{
+
+.sec-button {
     font-size: 16px;
     background: rgba(255, 255, 255, 0.8);
     border: none;
@@ -126,7 +127,8 @@ button {
     float: left;
     padding: 10px;
 }
-.work-image{
+
+.work-image {
     display: table;
     margin: 0 auto;
 }
@@ -143,7 +145,7 @@ button {
     color: #828181;
 }
 
-.see-button{
+.see-button {
     display: table;
     margin: 0 auto;
     background: #dddcdc;
@@ -155,7 +157,12 @@ button {
     color: #207b20;
 }
 
-.button-me{
+.buttonme-wrapper{
+    width: 100%;
+background: #207b20;
+padding-top: 20px;
+}
+.button-me {
     display: table;
     margin: 0 auto;
 }
@@ -184,4 +191,175 @@ button {
 .copyright {
     background-color: #111;
     color: #fff;
+}
+
+/* row */
+.row {
+    display: table;
+    margin: 0 auto;
+}
+
+/* Screen Greater than  480px*/
+@media screen and (min-width: 480px) {
+
+    /* Header Section */
+    .main-heading {
+        font-size: 3.5em;
+    }
+
+
+    /* Main Section */
+    .background-image>.container {
+        padding: 10em 4em 0.5em 4em;
+    }
+
+    /* What We Do */
+    .hide-me {
+        display: none;
+    }
+
+    .work-items {
+        max-width: 300px;
+    }
+
+    /*Our Latest Works  */
+    .latest-work-images {
+        margin-left: 3.8em;
+        margin-right: 3.8em;
+    }
+
+    /* Our Happy Clients */
+    .happy-client-list, .our-team {
+        display: table;
+        margin: 10px auto;
+        max-width: 0;
+    }
+
+    .happy-client {
+        min-width: 175px;
+    }
+}
+
+/* Screen Greater than 768 */
+@media screen and (min-width: 768px) {
+
+    /* Main Section */
+    .background-image>.container {
+        padding: 18em 4em 3em 4em;
+    }
+
+     /* Navbar */
+     #top-nav {
+        display: inline;
+        float: left;
+      }
+
+      #top-nav ul li{
+          float: left;
+          margin-right: 20px;
+      }
+
+      #top-nav ul li a{
+        color: #fff;
+        font-size: 16px;
+      }
+
+      #top-nav ul li a:hover{
+        font-weight: 700;
+        border-top: 5px solid #54d154;
+      }
+
+      .main-logo{
+        position: absolute;
+        left: 56%;
+      }
+
+
+}
+
+/* Screen Greater than 991 */
+@media screen and (min-width: 991px) {
+/* main logo */
+.main-logo{
+    position: absolute;
+    left: 48%;
+  }
+    /* What We Do */
+    .hide-me {
+        display: block;
+    }
+
+
+    .work-items {
+        max-width: 320px;
+    }
+
+    /* Our Latest Work */
+    .latest-work-images {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    .testimonials{
+        padding: 0px 195px;
+        height: 57vh;
+    }
+
+    .carousel-wrapper .carousel-item .arrow {
+        top: 26px;
+    }
+
+    .happy-client-list, .our-team{
+        max-width: unset;
+    }
+    .happy-client-list .row{
+        width: 991px;
+    }
+
+    .happy-client{
+        float: none;
+        display: inline-block;
+        min-width: 242px;
+
+    }
+
+    /* Footer */
+    .column{
+        margin: 0 14px 0 30px;
+    }
+
+    .about-column {
+        width: 306px;
+    }
+    .recent-column {
+        width: 248px;
+    }
+    .contact-column {
+        width: 312px;
+    }
+
+    .about-column p{
+        text-align: none;
+        padding: none;
+        font-size: 16px;
+
+    }
+}
+
+/* Screen Greater than 1200 */
+@media screen and (min-width: 1200px) {
+    .happy-client-list .row{
+        width:1078px;
+    }
+
+    .about-column{
+        width:349px;
+    }
+    .recent-column{
+        width:287px;
+    }
+    .contact-column{
+        width: 453px;
+    }
+
 }

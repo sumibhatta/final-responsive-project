@@ -38,6 +38,10 @@ button {
 
 
 /* What We Do Section */
+.our-works{
+  padding-top: 20px;
+}
+
 .work-items {
   max-width: 360px;
   padding-bottom: 30px;
@@ -53,8 +57,9 @@ button {
 
 /* Our Latest Work Section */
 .latest-work-images{
-  display: table;
+  /* margin-left: 11em; */
   margin-left: 4.8em;
+  margin-right: 4.8em;
 }
 .button-groups {
   border: 1px solid green;
@@ -207,7 +212,7 @@ button {
   float: left;
   padding: 10px;
   object-fit: cover;
-  min-width: 190px;
+  min-width: 182px;
   min-height: 85px;
 }
 
@@ -223,6 +228,7 @@ button {
 .work-button{
   display: inline;
 margin: 0 0 20px 0;
+background-color: #54d154;
 
 }
 
@@ -244,7 +250,7 @@ margin: 0 0 20px 0;
 /* Second Column */
 .recent-posts {
   display: table;
-  margin: 0 auto 0 24px;
+  margin: 0 auto 0 0;
 }
 .post-image {
   float: left;
@@ -282,6 +288,7 @@ margin: 0 0 20px 0;
 .address-text {
   text-align: center;
   padding: 10px;
+  font-size: 14px;
 }
 
 /* Form */
@@ -299,7 +306,7 @@ margin: 0 0 20px 0;
 }
 
 .input-message.input {
-  padding: 29px 0 200px 10px;
+  padding: 29px 0 125px 10px;
 }
 
 input:focus {
@@ -315,7 +322,12 @@ input:focus {
   color: #fff;
 }
 
-
+/* Main Footer */
+.columns{
+  max-width: 398px;
+float: left;
+margin: 0 14px;
+}
 /* As Seen on Section on footer */
 .popular {
   max-width: 295px;
@@ -328,3 +340,4 @@ input:focus {
   font-size: 16px;
   padding: 5px 0;
 }
+
