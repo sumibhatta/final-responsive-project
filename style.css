@@ -1,6 +1,12 @@
 /* Main Section */
+html {
+    scroll-behavior: smooth;
+}
 .top {
     background-image: url(./images/Background1.png);
+}
+.green {
+    color: #207b20;
 }
 
 nav {
@@ -57,6 +63,10 @@ button {
     color: #000;
 }
 
+.sec-button:hover {
+    padding: 7px 23px;
+}
+
 /* Section Titles */
 .section-title {
     font-size: 21px;
@@ -86,8 +96,8 @@ margin: 0px 48% 2px 48%;
     color: #fff;
     border: none;
 }
-main-button:hover {
-    background: #2b9b2b;
+.main-button:hover {
+    padding: 12px 15px;
 }
 
 button:hover{
