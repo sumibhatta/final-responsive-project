@@ -38,7 +38,7 @@ button {
 
 
 /* What We Do Section */
-.our-works{
+.our-works {
   padding-top: 20px;
 }
 
@@ -47,20 +47,22 @@ button {
   padding-bottom: 30px;
   float: left;
 }
+
 .item {
   text-align: center;
 }
 
-.works-title{
+.works-title {
   padding: 27px 0 18px 0;
 }
 
 /* Our Latest Work Section */
-.latest-work-images{
+.latest-work-images {
   /* margin-left: 11em; */
   margin-left: 4.8em;
   margin-right: 4.8em;
 }
+
 .button-groups {
   border: 1px solid green;
   border-radius: 65px;
@@ -100,7 +102,7 @@ button {
   padding: 8px 9px;
   font-size: 18px;
   display: table;
-  margin: 8px auto;
+  margin: 10px auto 34px auto;
 }
 
 /* Testimonials Section */
@@ -197,14 +199,17 @@ button {
 }
 
 /* Our Happy Clients Section */
-.our-happy-clients{
+.our-happy-clients {
   padding-bottom: 20px;
 }
-.happy-client-list{
-  margin-top: 20px;
+
+.happy-client-list , .our-team{
+  display: table;
+  margin: 0 auto;
+  width: 0px;
 }
 
-.fix-fix{
+.fix-fix {
   padding-top: 15px;
 }
 
@@ -225,11 +230,15 @@ button {
   text-align: center;
 }
 
-.work-button{
+.work-button {
   display: inline;
-margin: 0 0 20px 0;
-background-color: #54d154;
+  margin: 0 0 20px 0;
+  background-color: #54d154;
 
+}
+work-button:hover {
+    background: #2b9b2b;
+    color: white;
 }
 
 /* Main Footer */
@@ -243,7 +252,7 @@ background-color: #54d154;
   background-color: #fff;
   padding: 6px 9px 2px 7px;
   border-radius: 20px;
-  margin: 0 auto;
+  margin: 5px auto;
   display: table;
 }
 
@@ -252,6 +261,7 @@ background-color: #54d154;
   display: table;
   margin: 0 auto 0 0;
 }
+
 .post-image {
   float: left;
   margin-right: 7px;
@@ -261,6 +271,7 @@ background-color: #54d154;
   border-radius: 4px;
   font-size: 13px;
   padding: 4px 8px;
+  color: #fff;
 }
 
 .recent-search.magazine {
@@ -279,7 +290,7 @@ background-color: #54d154;
   background-color: #f34d04;
 }
 
-.post-description > pre {
+.post-description>pre {
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 5px;
@@ -323,11 +334,12 @@ input:focus {
 }
 
 /* Main Footer */
-.columns{
+.columns {
   max-width: 398px;
-float: left;
-margin: 0 14px;
+  float: left;
+  margin: 0 14px;
 }
+
 /* As Seen on Section on footer */
 .popular {
   max-width: 295px;
@@ -340,4 +352,3 @@ margin: 0 14px;
   font-size: 16px;
   padding: 5px 0;
 }
-

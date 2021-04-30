@@ -60,9 +60,17 @@ button {
 /* Section Titles */
 .section-title {
     font-size: 21px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
-    padding: 37px 0 13px 0;
+    padding: 37px 0 10px 0;
+}
+
+.line{
+    width: 43px;
+display: block;
+height: 2px;
+background: #000;
+margin: 0px 48% 2px 48%;
 }
 
 /* Section Subheadings */
@@ -78,7 +86,13 @@ button {
     color: #fff;
     border: none;
 }
+main-button:hover {
+    background: #2b9b2b;
+}
 
+button:hover{
+    cursor: pointer;
+}
 .disabled {
     background-color: #dddcdc;
 }
@@ -109,6 +123,9 @@ button {
     background-color: #e1f3e1;
     padding: 34px 28px;
     border-radius: 25px;
+}
+img:hover {
+    cursor: pointer;
 }
 
 .learn-more-button {
@@ -167,6 +184,17 @@ padding-top: 20px;
     margin: 0 auto;
 }
 
+.name-of-boss{
+    font-weight: bold;
+    color: #000;
+}
+
+.position-of-boss{
+    font-weight: bold;
+    counter-reset: #dfdfdf;
+    display: block;
+}
+
 /* Main Footer */
 .main-footer {
     background-color: #333;
@@ -222,6 +250,13 @@ padding-top: 20px;
         max-width: 300px;
     }
 
+    .vertical-line{
+        height: 77px;
+    background: #207b20;
+    width: 2px;
+    margin: 2px 67px 2px 95px;
+    }
+
     /*Our Latest Works  */
     .latest-work-images {
         margin-left: 3.8em;
@@ -230,9 +265,9 @@ padding-top: 20px;
 
     /* Our Happy Clients */
     .happy-client-list, .our-team {
+        width: 440px;
         display: table;
         margin: 10px auto;
-        max-width: 0;
     }
 
     .happy-client {
@@ -273,6 +308,13 @@ padding-top: 20px;
         position: absolute;
         left: 56%;
       }
+      /* Happy-cliet list */
+      .happy-client-list, .our-team{
+          display: block;
+          min-width: none;
+          max-width: none;
+          width: 578px;
+      }
 
 
 }
@@ -296,7 +338,7 @@ padding-top: 20px;
 
     /* Our Latest Work */
     .latest-work-images {
-        margin-left: 8em;
+        margin-left: 11em;
         margin-right: 8em;
     }
 
@@ -309,8 +351,9 @@ padding-top: 20px;
         top: 26px;
     }
 
-    .happy-client-list, .our-team{
-        max-width: unset;
+    .happy-client-list, .our-team {
+        display: table;
+        margin: 10px auto;
     }
     .happy-client-list .row{
         width: 991px;
@@ -344,12 +387,16 @@ padding-top: 20px;
         font-size: 16px;
 
     }
+    .our-team{
+       width: 1065px;
+    }
 }
 
 /* Screen Greater than 1200 */
 @media screen and (min-width: 1200px) {
+    
     .happy-client-list .row{
-        width:1078px;
+        width: 999px;
     }
 
     .about-column{
