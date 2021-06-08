@@ -1,10 +1,13 @@
 /* Main Section */
+
 html {
     scroll-behavior: smooth;
 }
+
 .top {
     background-image: url(./images/Background1.png);
 }
+
 .green {
     color: #207b20;
 }
@@ -23,14 +26,15 @@ nav {
     font-weight: 400;
 }
 
+
 /* Searchbox ko input */
+
 .search-box {
     float: right;
     border: none;
     margin-right: 30px;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.8);
-
 }
 
 .search-box>span {
@@ -47,6 +51,7 @@ nav {
 
 
 /* Buttons */
+
 button {
     border: 1px solid transparent;
     /* padding: 15px 27px; */
@@ -67,7 +72,9 @@ button {
     padding: 7px 23px;
 }
 
+
 /* Section Titles */
+
 .section-title {
     font-size: 21px;
     font-weight: 400;
@@ -75,44 +82,52 @@ button {
     padding: 37px 0 10px 0;
 }
 
-.line{
+.line {
     width: 43px;
-display: block;
-height: 2px;
-background: #000;
-margin: 0px 48% 2px 48%;
+    display: block;
+    height: 2px;
+    background: #000;
+    margin: 0px 48% 2px 48%;
 }
 
+
 /* Section Subheadings */
+
 .section-subheading {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
-
 }
 
 .main-button {
     background-color: #54d154;
     color: #fff;
     border: none;
+    padding: 10px;
 }
+
 .main-button:hover {
     padding: 12px 15px;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
+
 .disabled {
     background-color: #dddcdc;
 }
 
+
 /* Main Section */
+
 .main {
     color: #fff;
 }
 
+
 /* Main Title */
+
 .main-heading {
     /* font-size: 3.5em; */
     /* For Big  screen size */
@@ -121,6 +136,7 @@ button:hover{
     font-weight: 700;
     margin-bottom: 0.5em;
 }
+
 
 /* What We Do Section */
 
@@ -134,6 +150,7 @@ button:hover{
     padding: 34px 28px;
     border-radius: 25px;
 }
+
 img:hover {
     cursor: pointer;
 }
@@ -144,7 +161,9 @@ img:hover {
     color: #fff;
 }
 
+
 /* Our Latest Work Section */
+
 .our-latest-work {
     background-color: #54d154;
     color: #828181;
@@ -160,13 +179,17 @@ img:hover {
     margin: 0 auto;
 }
 
+
 /* Testimonials Section */
+
 .testimonials {
     background-color: #fff;
     color: #828181;
 }
 
+
 /* Our Happy Clients Section */
+
 .our-happy-clients {
     background-color: #f2f1f1;
     color: #828181;
@@ -178,40 +201,47 @@ img:hover {
     background: #dddcdc;
 }
 
+
 /* Meet The Team Section */
+
 .meet-the-team {
     background-color: #54d154;
     color: #207b20;
 }
 
-.buttonme-wrapper{
+.buttonme-wrapper {
     width: 100%;
-background: #207b20;
-padding-top: 20px;
+    background: #207b20;
+    padding-top: 20px;
 }
+
 .button-me {
     display: table;
     margin: 0 auto;
 }
 
-.name-of-boss{
+.name-of-boss {
     font-weight: bold;
     color: #000;
 }
 
-.position-of-boss{
+.position-of-boss {
     font-weight: bold;
     counter-reset: #dfdfdf;
     display: block;
 }
 
+
 /* Main Footer */
+
 .main-footer {
     background-color: #333;
     color: #ddd;
 }
 
+
 /* Column Tiltle */
+
 .column-title {
     font-size: 16px;
     font-weight: 300;
@@ -219,10 +249,13 @@ padding-top: 20px;
     padding: 31px 0 33px 0;
 }
 
+
 /* As Seen on Section on footer */
+
 .as-seen-on {
     background-color: #222;
 }
+
 
 /* CopyRight Section on Footer */
 
@@ -231,156 +264,140 @@ padding-top: 20px;
     color: #fff;
 }
 
+
 /* row */
+
 .row {
     display: table;
     margin: 0 auto;
 }
 
-/* Screen Greater than  480px*/
-@media screen and (min-width: 480px) {
 
+/* Screen Greater than  480px*/
+
+@media screen and (min-width: 480px) {
     /* Header Section */
     .main-heading {
         font-size: 3.5em;
     }
-
-
     /* Main Section */
     .background-image>.container {
         padding: 10em 4em 0.5em 4em;
     }
-
     /* What We Do */
     .hide-me {
         display: none;
     }
-
     .work-items {
         max-width: 300px;
     }
-
-    .vertical-line{
+    .vertical-line {
         height: 77px;
-    background: #207b20;
-    width: 2px;
-    margin: 2px 67px 2px 95px;
+        background: #207b20;
+        width: 2px;
+        margin: 2px 67px 2px 95px;
     }
-
     /*Our Latest Works  */
     .latest-work-images {
         margin-left: 3.8em;
         margin-right: 3.8em;
     }
-
     /* Our Happy Clients */
-    .happy-client-list, .our-team {
+    .happy-client-list,
+    .our-team {
         width: 440px;
         display: table;
         margin: 10px auto;
     }
-
     .happy-client {
         min-width: 175px;
     }
 }
 
-/* Screen Greater than 768 */
-@media screen and (min-width: 768px) {
 
+/* Screen Greater than 768 */
+
+@media screen and (min-width: 768px) {
     /* Main Section */
     .background-image>.container {
         padding: 18em 4em 3em 4em;
     }
-
-     /* Navbar */
-     #top-nav {
+    /* Navbar */
+    #top-nav {
         display: inline;
         float: left;
-      }
-
-      #top-nav ul li{
-          float: left;
-          margin-right: 20px;
-      }
-
-      #top-nav ul li a{
+    }
+    #top-nav ul li {
+        float: left;
+        margin-right: 20px;
+    }
+    #top-nav ul li a {
         color: #fff;
         font-size: 16px;
-      }
-
-      #top-nav ul li a:hover{
+    }
+    #top-nav ul li a:hover {
         font-weight: 700;
         border-top: 5px solid #54d154;
-      }
-
-      .main-logo{
+    }
+    .main-logo {
         position: absolute;
         left: 56%;
-      }
-      /* Happy-cliet list */
-      .happy-client-list, .our-team{
-          display: block;
-          min-width: none;
-          max-width: none;
-          width: 578px;
-      }
-
-
+    }
+    /* Happy-cliet list */
+    .happy-client-list,
+    .our-team {
+        display: block;
+        min-width: none;
+        max-width: none;
+        width: 578px;
+    }
 }
 
+
 /* Screen Greater than 991 */
+
 @media screen and (min-width: 991px) {
-/* main logo */
-.main-logo{
-    position: absolute;
-    left: 48%;
-  }
+    /* main logo */
+    .main-logo {
+        position: absolute;
+        left: 48%;
+    }
     /* What We Do */
     .hide-me {
         display: block;
     }
-
-
     .work-items {
         max-width: 320px;
     }
-
     /* Our Latest Work */
     .latest-work-images {
         margin-left: 11em;
         margin-right: 8em;
     }
-
-    .testimonials{
+    .testimonials {
         padding: 0px 195px;
         height: 57vh;
     }
-
     .carousel-wrapper .carousel-item .arrow {
         top: 26px;
     }
-
-    .happy-client-list, .our-team {
+    .happy-client-list,
+    .our-team {
         display: table;
         margin: 10px auto;
     }
-    .happy-client-list .row{
+    .happy-client-list .row {
         width: 991px;
     }
-
-    .happy-client{
+    .happy-client {
         float: none;
         display: inline-block;
         min-width: 242px;
-
     }
-
     /* Footer */
-    .column{
+    .column {
         margin: 0 14px 0 30px;
     }
-
     .about-column {
         width: 306px;
     }
@@ -390,33 +407,30 @@ padding-top: 20px;
     .contact-column {
         width: 312px;
     }
-
-    .about-column p{
+    .about-column p {
         text-align: none;
         padding: none;
         font-size: 16px;
-
     }
-    .our-team{
-       width: 1065px;
+    .our-team {
+        width: 1065px;
     }
 }
 
+
 /* Screen Greater than 1200 */
+
 @media screen and (min-width: 1200px) {
-    
-    .happy-client-list .row{
+    .happy-client-list .row {
         width: 999px;
     }
-
-    .about-column{
-        width:349px;
+    .about-column {
+        width: 349px;
     }
-    .recent-column{
-        width:287px;
+    .recent-column {
+        width: 287px;
     }
-    .contact-column{
+    .contact-column {
         width: 453px;
     }
-
 }
